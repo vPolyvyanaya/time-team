@@ -33,7 +33,7 @@ public class ConnectionFactory {
             conn = DriverManager.getConnection(getConnectionURL(),
             		 cachedProperties.getProperty("database.user"),
             		 cachedProperties.getProperty("database.password"));
-           // System.out.println(cachedProperties.getProperty("database.password"));
+            System.out.println(cachedProperties.getProperty("database.password"));
             return conn;
     }
     
